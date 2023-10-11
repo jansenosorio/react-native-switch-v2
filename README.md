@@ -35,6 +35,8 @@ export const App = () => (
     circleBorderWidth={3}
     backgroundActive={"green"}
     backgroundInactive={"gray"}
+    backgroundBorderColor={"black"}
+    backgroundBorderWidth={1}
     circleActiveColor={"#30a566"}
     circleInActiveColor={"#000000"}
     renderInsideCircle={() => <CustomComponent />} // custom component to render inside the Switch circle (Text, Image, etc.)
